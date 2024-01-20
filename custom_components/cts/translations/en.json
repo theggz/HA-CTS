@@ -1,0 +1,55 @@
+{
+  "config": {
+    "step": {
+      "user": {
+          "title": "CTS API token",
+          "description": "Please enter the details of your token as provided by the [CTS open data portal](https://www.cts-strasbourg.eu/fr/portail-open-data/).",
+          "data": {
+              "api_token": "API token"
+          }
+      },
+      "menu": {
+        "menu_options": {
+          "add_stop": "Add a stop",
+          "finish": "Finish the configuration"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Connection to CTS API failed, please retry later.",
+      "invalid_api_token": "The specified API token is invalid.",
+      "unknown": "An unknown error occured."
+    },
+    "abort": {
+      "already_configured": "The entry is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "menu_options": {
+          "add_stop": "Add a stop",
+          "remove_stop": "Remove a stop"
+        }
+      },
+      "add_stop": {
+        "title": "Stop point selection",
+        "description": "Select the stop point you want to monitor",
+        "data": {
+          "logical_stop_code": "Stop point"
+        }
+      },
+      "set_destination": {
+        "description": "Select the stop point destination",
+        "data": {
+          "stop_code": "Stop point destination"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Connection to CTS API failed, please retry later.",
+      "invalid_api_token": "The specified API token is invalid.",
+      "unknown": "An unknown error occured."
+    }
+  }
+}

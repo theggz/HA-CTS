@@ -1,0 +1,11 @@
+{
+  "domain": "cts",
+  "name": "CTS",
+  "codeowners": ["@leggz"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/theggz/HA-CTS",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.0.1"
+}
